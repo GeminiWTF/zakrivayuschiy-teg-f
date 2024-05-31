@@ -12,3 +12,21 @@
 
 Кроме этого, не меняйте HTML переключателя тем. Его разметка также гарантирует работу своего скрипта.
 */
+@keyframes movement {
+  from {
+    left: clamp(8.4375rem, 4.9164rem + 15.0235vw, 18.4375rem);
+  }
+  to {
+    left: clamp(8.6875rem, 5.1664rem + 15.0235vw, 18.6875rem);
+  }
+}
+
+@keyframes color {
+  from {
+    color: var(--text-color);
+  }
+  to {
+    color: var(--text-color);
+    opacity: 60%;
+  }
+}
