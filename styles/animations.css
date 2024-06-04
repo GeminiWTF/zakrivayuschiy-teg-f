@@ -20,7 +20,7 @@
     left: clamp(8.6875rem, 5.1664rem + 15.0235vw, 18.6875rem);
   }
 }
-
+/* 
 @keyframes color {
   from {
     color: var(--text-color);
@@ -29,4 +29,22 @@
     color: var(--text-color);
     opacity: 60%;
   }
+} */
+
+@keyframes transform {
+  from {
+    scale: 1;
+  }
+  to {
+    scale: 1.02;
+  }
+}
+
+@keyframes change-color{
+ from{
+    fill: none;
+ }
+ to {
+    fill: red;
+ }
 }

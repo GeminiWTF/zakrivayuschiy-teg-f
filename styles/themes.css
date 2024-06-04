@@ -19,6 +19,8 @@
   --text-color: #000000;
   --shadow-color: #ffffff;
   --vert-gradient: #d3d3d3;
+  --contour-color:  #000000;
+  --fill-color: #ffffff;
   --line-gradient-beginning: #e7e7e7;
   --line-gradient-end: #1a1a1a;
   --font-weight-normal: 400px;
@@ -30,6 +32,7 @@ root.theme-dark {
   --accent-font: PressStart2P-Regular;
   --bg-color: #000000;
   --text-color: #00cc14;
+  --button-color: #00cc14;
 }
 
 .theme-dark {
@@ -39,6 +42,9 @@ root.theme-dark {
   --text-color: #00cc14;
   --shadow-color: #000000;
   --vert-gradient: #000;
+  --button-color: #00cc14;
+  --contour-color:  #00cc14;
+  --fill-color:  #000000;
   --line-gradient-beginning: #007f0c;
   --line-gradient-end: #004306;
   --font-weight-normal: 465px;

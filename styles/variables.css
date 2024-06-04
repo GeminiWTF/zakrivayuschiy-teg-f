@@ -5,9 +5,14 @@
     --bg-color: #ffffff;
     --text-color: #000000;
     --shadow-color:  #ffffff;
+    --button-color: white;
     --font-weight-normal: 400px;
     --font-weight-bold:700px;
+    --contour-color:  #000000;
+    --fill-color:white;
+
 --vert-gradient: #d3d3d3;
 --line-gradient-beginning:#e7e7e7;
 --line-gradient-end:#1a1a1a;
+
 }
