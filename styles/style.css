@@ -325,27 +325,15 @@
   box-shadow: 2px 2px 0 0 var(--text-color);
 }
 
-@media (width> 375px) {
-  .save_button {
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    margin: auto;
-    margin-top: 52px;
-    padding-top: 18px;
-    border: solid 2px var(--text-color);
-    height: 55px;
-  }
-}
 
 .save_button:hover {
   border: solid 2px transparent;
   color: black;
   .floppy {
     --text-color: white;
-    z-index: 1;
+    z-index: 1;}
   }
-}
+
 
 .save_button:before {
   content: "";
@@ -354,12 +342,12 @@
   top: 0;
   left: 0;
   width: 0;
-  height: clamp(5.25rem, 5.8882rem + -2.723vw, 3.4375rem);
+  height: 84px;
   transition: 0.4s;
 }
 
 .save_button:hover::before {
-  width: 100%;
+   width: 100%; 
   background-color: var(--text-color);
   transition: width 4s, background-color 4s;
 }
@@ -532,4 +520,29 @@ dialog::backdrop {
 
 .invert {
   filter: invert(0.7);
+}
+
+
+@media (width> 375px) {
+  .save_button {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    margin-top: 52px;
+    padding-top: 18px;
+    border: solid 2px var(--text-color);
+    height: 55px;
+  }
+
+  .save_button:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 55px;
+    transition: 0.4s;
+  }
 }
