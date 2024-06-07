@@ -31,8 +31,8 @@
   }
 }
 
-@keyframes change-color{
- from{
+@keyframes change-color {
+ from {
     fill: none;
  }
  to {
