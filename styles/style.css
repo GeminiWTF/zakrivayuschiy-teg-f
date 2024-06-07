@@ -207,7 +207,6 @@
 @supports (-webkit-text-stroke: 1px var(--shadow-color)) {
   .accent_word {
     -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: var(--shadow-color);
     text-shadow: none;
   }
