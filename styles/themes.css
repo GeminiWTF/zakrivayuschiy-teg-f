@@ -4,6 +4,31 @@
 ✦ theme-light — класс светлой темы
 ✦ не забудьте описать стили для изменения темы через медизапрос пользовательских предпочтений
 */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --main-font: Inter-Variable, Arial, sans-serif;
+    --accent-font: PressStart2P, fantasy, sans-serif;
+    --bg-color: #000000;
+    --text-color: #00cc14;
+    --shadow-color: #000000;
+    --vert-gradient: #000;
+    --button-color: #00cc14;
+    --contour-color: #00cc14;
+    --fill-color: #000000;
+    --line-gradient-beginning: #007f0c;
+    --line-gradient-end: #004306;
+    --font-weight-normal: 465px;
+    --font-weight-bold: 785px;
+  }
+    /* .save_button:hover {
+      border: solid 2px transparent;
+      color: black;
+      .floppy {
+        --text-color: #000000;
+        z-index: 1;
+      }
+    } */
+}
 
 root.theme-light {
   --main-font: Inter-Variable, Arial, sans-serif;
@@ -57,44 +82,9 @@ root.theme-dark {
       --text-color: #000000;
       z-index: 1;
     }
-
   }
 
 }
 
-@media (prefers-color-scheme: dark) {
-  root.theme-auto {
-    --main-font: Inter-Variable, Arial, sans-serif;
-    --accent-font: PressStart2P, fantasy, sans-serif;
-    --bg-color: #000000;
-    --text-color: #00cc14;
-    --button-color: #00cc14;
-  }
 
-  .theme-auto {
-    --main-font: Inter-Variable, Arial, sans-serif;
-    --accent-font: PressStart2P, fantasy, sans-serif;
-    --bg-color: #000000;
-    --text-color: #00cc14;
-    --shadow-color: #000000;
-    --vert-gradient: #000;
-    --button-color: #00cc14;
-    --contour-color: #00cc14;
-    --fill-color: #000000;
-    --line-gradient-beginning: #007f0c;
-    --line-gradient-end: #004306;
-    --font-weight-normal: 465px;
-    --font-weight-bold: 785px;
-
-    .save_button:hover {
-      border: solid 2px transparent;
-      color: black;
-      .floppy {
-        --text-color: #000000;
-        z-index: 1;
-      }
-    }
-  }
-}
-
-
+ 
