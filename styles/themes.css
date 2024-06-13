@@ -20,14 +20,6 @@
     --font-weight-normal: 465px;
     --font-weight-bold: 785px;
   }
-    /* .save_button:hover {
-      border: solid 2px transparent;
-      color: black;
-      .floppy {
-        --text-color: #000000;
-        z-index: 1;
-      }
-    } */
 }
 
 root.theme-light {
