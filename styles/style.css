@@ -47,9 +47,6 @@
 }
 
 .title {
-  /* padding-top: clamp(7.5rem, 6.3462rem + 4.9231vw, 8.5rem);
-  padding-left: clamp(0.875rem, -1.4688rem + 10vw, 7.53125rem);
-  padding-right: clamp(0.875rem, -1.4688rem + 10vw, 7.53125rem); */
   display: block;
   text-align: center;
   font-variation-settings: "wght" var(--font-weight-bold);
@@ -60,8 +57,7 @@
 
 .additional_title {
   padding-top: 19px;
-  /* padding-left: clamp(5.0625rem, -1.7524rem + 29.0769vw, 10.96875rem);
-  padding-right: clamp(5.0625rem, -1.7524rem + 29.0769vw, 10.96875rem); */
+
   text-align: center;
   text-wrap: nowrap;
   font-variation-settings: "wght" var(--font-weight-bold);
@@ -141,7 +137,6 @@
   display: block;
   width: 0%;
   padding-top: 1px;
-  transition: none;
   outline: none;
   border: none;
   transition: width 0.3s, background-color 0.3s;
