@@ -385,10 +385,6 @@
   height: 28px;
 }
 
-.like-icon {
-  padding: 0px;
-}
-
 .like-icon:focus {
   outline: none;
 }
@@ -413,6 +409,8 @@
 }
 
 .like-icon {
+  padding: 0px;
+
   .main-body {
     transition: 0.3s linear;
   }
@@ -480,9 +478,10 @@
   }
 }
 
- .like-icon .contour{
+ .like-icon .contour {
  color: var(--contour-color);
-  transition: 0.1s linear;}  
+  transition: 0.1s linear;
+}  
 
 .floppy {
   margin: auto;
