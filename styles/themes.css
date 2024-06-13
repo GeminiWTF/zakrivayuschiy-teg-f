@@ -17,8 +17,8 @@
     --fill-color: #000000;
     --line-gradient-beginning: #007f0c;
     --line-gradient-end: #004306;
-    --font-weight-normal: 465px;
-    --font-weight-bold: 785px;
+    --font-weight-normal: 465;
+    --font-weight-bold: 785;
   }
 }
 
@@ -40,8 +40,8 @@ root.theme-light {
   --fill-color: #ffffff;
   --line-gradient-beginning: #e7e7e7;
   --line-gradient-end: #1a1a1a;
-  --font-weight-normal: 400px;
-  --font-weight-bold: 700px;
+  --font-weight-normal: 400;
+  --font-weight-bold: 700;
 }
 
 root.theme-dark {
@@ -64,8 +64,8 @@ root.theme-dark {
   --fill-color: #000000;
   --line-gradient-beginning: #007f0c;
   --line-gradient-end: #004306;
-  --font-weight-normal: 465px;
-  --font-weight-bold: 785px;
+  --font-weight-normal: 465;
+  --font-weight-bold: 785;
 
   .save_button:hover {
     border: solid 2px transparent;
@@ -75,8 +75,4 @@ root.theme-dark {
       z-index: 1;
     }
   }
-
 }
-
-
- 

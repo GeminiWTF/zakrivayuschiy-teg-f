@@ -21,7 +21,6 @@
   }
 }
 
-
 @keyframes transform {
   from {
     scale: 1;
@@ -32,10 +31,10 @@
 }
 
 @keyframes change-color {
- from {
+  from {
     fill: none;
- }
- to {
+  }
+  to {
     fill: red;
- }
+  }
 }
