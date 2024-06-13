@@ -506,7 +506,7 @@
 .floppy_dialog {
   margin: auto;
   margin-top: 13px;
-  padding-left: 7px;
+  padding-left: 3px;
   width: 77px;
   height: 58px;
   color: var(--text-color);
